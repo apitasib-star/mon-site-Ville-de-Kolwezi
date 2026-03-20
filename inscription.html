@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inscription des élèves</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Formulaire d'inscription</h2>
+<form id="formEleve">
+<label>Nom: <input type="texte" id="nom"></label><br><br>
+<label>Prénom: <input type="texte" id="prenom"></label><br><br>
+<label>Age: <input type="number" id="age"></label><br><br>
+	
+<label>Classe:
+<select id="classe">
+<option value="">--Choisir--</option>
+<option value="6ème">6ème</option>
+<option value="5ème">5ème</option>
+<option value="4ème">4ème</option>
+<option value="3ème">3ème</option>
+<option value="2ème">2ème</option>
+<option value="1re">1re</option>
+</select>
+</label><br><br>
+
+<button type="submit">Enregistrer</button>
+</form>
+
+<p id="message"></p>
+
+<h3>Liste des élèves inscrits:</h3>
+<ul id="listeEleves"></ul>
+<script src="script.js"></script>
+
+</body>
+
+</html>
